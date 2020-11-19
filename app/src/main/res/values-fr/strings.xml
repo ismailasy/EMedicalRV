@@ -24,4 +24,10 @@
     <string name="disconnect">Déconnexion</string>
     <string name="wait">Veillez patienter SVP</string>
     <string name="mydashboard">Tableau de Bord</string>
+    <string name="patient">Patient</string>
+    <string name="rdv">Rendez-vous</string>
+    <string name="consultation">Consultations</string>
+    <string name="hospital">Hopital</string>
+    <string name="modif_appointment">Modification RDV</string>
+
 </resources>

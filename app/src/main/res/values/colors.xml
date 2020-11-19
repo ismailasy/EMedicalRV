@@ -6,4 +6,7 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBluePrimary">#5583b9</color>
     <color name="colorBrown">#893e20</color>
+    <color name="colorAqua">#00ffff</color>
+    <color name="colorDarkBlue">#483d8b</color>
+
 </resources>

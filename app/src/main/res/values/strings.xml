@@ -24,4 +24,11 @@
     <string name="disconnect">Disconnect</string>
     <string name="wait">Please wait</string>
     <string name="mydashboard">MY Dashbord</string>
+    <string name="patient">Patient</string>
+    <string name="rdv">Appointment</string>
+    <string name="consultation">Consultations</string>
+    <string name="hospital">Hospital</string>
+
+
+    <string name="modif_appointment">Modify Appointment</string>
 </resources>
