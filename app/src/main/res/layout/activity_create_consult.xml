@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dim_all"
+    tools:context=".CreateConsultActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            >
+        </ImageView>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/dim_top"
+            android:textSize="@dimen/dim_title"
+            android:gravity="center"
+            android:text="@string/consult_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtFirstName"
+            android:hint="@string/first_name"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtLastName"
+            android:hint="@string/last_name"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/txtDate"
+            android:hint="@string/consultation_date"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtTime"
+            android:hint="@string/consultation_time"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtTemperature"
+            android:hint="@string/temperature"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/dim_title"
+            android:hint="@string/symptoms"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/cbHeadache"
+            android:layout_marginLeft="@dimen/dim_middle"
+            android:hint="@string/headache"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/cbStomachache"
+            android:layout_marginLeft="@dimen/dim_middle"
+            android:hint="@string/stomachache"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/cbDistress"
+            android:layout_marginLeft="@dimen/dim_middle"
+            android:hint="@string/distress"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/cbCough"
+            android:layout_marginLeft="@dimen/dim_middle"
+            android:hint="@string/cough"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/cbDiarrhea"
+            android:layout_marginLeft="@dimen/dim_middle"
+            android:hint="@string/diarrhea"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/cbVomit"
+            android:layout_marginLeft="@dimen/dim_middle"
+            android:hint="@string/vomit"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </CheckBox>
+
+        <Button
+            android:textColor="@color/colorWhite"
+            android:id="@+id/btnSave"
+            android:background="@color/colorBluePrimary"
+            android:gravity="center"
+            android:text="@string/save"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </Button>
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -29,5 +29,24 @@
     <string name="consultation">Consultations</string>
     <string name="hospital">Hopital</string>
     <string name="modif_appointment">Modification RDV</string>
+    <string name="create_appointment">Créér un Rendz-vous</string>
+    <string name="appointment_date">Date du Rendez-vous</string>
+    <string name="appointment_place">Lieu du Rendez-vous</string>
+    <string name="appointment_time">Heure du Rendez-vous</string>
+    <string name="consultation_date">Date (Année-Mois-Jour)</string>
+    <string name="consultation_place">Lieu</string>
+    <string name="consultation_time">Heure (h:mn:ss)</string>
+    <string name="symptoms">Symptômes</string>
+    <string name="temperature">Température</string>
+    <string name="headache">Maux de tête</string>
+    <string name="stomachache">Maux de ventre</string>
+    <string name="distress">Douleur</string>
+    <string name="cough">Toux</string>
+    <string name="diarrhea">Diarrhée</string>
+    <string name="vomit">Vomissement</string>
+    <string name="consult_patient">Consulter un Patient</string>
+    <string name="list_app">Mes rendez-vous</string>
+    <string name="create_cons">Consultation</string>
+    <string name="list_cons"> Mes consultations </string>
 
 </resources>

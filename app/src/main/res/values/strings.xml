@@ -28,7 +28,25 @@
     <string name="rdv">Appointment</string>
     <string name="consultation">Consultations</string>
     <string name="hospital">Hospital</string>
-
-
     <string name="modif_appointment">Modify Appointment</string>
+    <string name="create_appointment">Create Appointment</string>
+    <string name="appointment_date">Appointment Date</string>
+    <string name="appointment_place">Appointment Place</string>
+    <string name="appointment_time">Appointment Time</string>
+    <string name="consultation_date">Date (Year-Month-Day)</string>
+    <string name="consultation_place">Place</string>
+    <string name="consultation_time">Time (h:mn:ss)</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="temperature">Temperature</string>
+    <string name="headache">Headache</string>
+    <string name="stomachache">Stomachache</string>
+    <string name="distress">Distress</string>
+    <string name="cough">Cough</string>
+    <string name="diarrhea">Diarrhea</string>
+    <string name="vomit">Vomit</string>
+    <string name="consult_patient">Consult Patient</string>
+    <string name="list_app">Appointments list</string>
+    <string name="create_cons">Consultation</string>
+    <string name="list_cons">Consultation list</string>
+
 </resources>
