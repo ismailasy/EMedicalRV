@@ -8,6 +8,15 @@
     android:layout_margin="@dimen/dim_all"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:src="@drawable/logvert"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        >
+    </ImageView>
+
+
     <TextView
         android:textStyle="bold"
         android:textSize="@dimen/dim_title"

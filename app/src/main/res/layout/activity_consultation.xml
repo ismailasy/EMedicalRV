@@ -43,15 +43,21 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
+                    <ImageView
+                        android:src="@drawable/edit"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        >
+                    </ImageView>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="0dp"
                         android:fontFamily="serif"
                         android:text="@string/consultation"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="40dp">
+                        android:textSize="30dp">
 
                     </TextView>
                 </LinearLayout>
@@ -72,12 +78,17 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-
+                    <ImageView
+                        android:src="@drawable/liste"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        >
+                    </ImageView>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="0dp"
                         android:fontFamily="serif"
                         android:text="@string/list_cons"
                         android:textColor="@color/cardview_dark_background"
